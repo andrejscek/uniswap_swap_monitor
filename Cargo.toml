@@ -1,0 +1,20 @@
+[package]
+name = "uniswap_swap_monitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers = { version = "2.0.10", features = ["abigen", "ws", "rustls"] }
+tokio = { version = "1.32.0", features = ["macros", "rt-multi-thread"] }
+eyre = "0.6.8"
+dotenv = "0.15.0"
+rusqlite = "0.29.0"
+tempdir = "0.3.7"
+
+[lib]
+name = "uniswap_swap_monitor"
+path = "src/lib.rs"
+
+[[bin]]
+name = "run_logger"
+path = "src/main.rs"
