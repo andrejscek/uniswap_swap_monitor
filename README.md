@@ -60,8 +60,4 @@ cargo test
 
 ## License
 
-This application is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the README further to include any additional information or instructions you think would be helpful to users.
+This application is licensed under the MIT License
